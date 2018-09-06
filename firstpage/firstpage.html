@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>telikh ergasia</title>
+
+<!--Εμφανίζει τον τιτλο στην μπάρα στον φυλλομετρητή -->
+<title>Δυνάμεις Φυσική Β Γυμνασίου</title>
+<!--καλούμε το εξωτερικό αρχείο css οπου έχει την μορφοποίηση της σελίδας-->
 <link href="stylefirstpage.css" rel="stylesheet" type="text/css">
-
-<!-- ξεκινάει το script  όπου θα ελέγχει τα πεδία password και τηλέφωνο αν ειναι έγγυρα-->
-<!-- για το password  ελεγχει την περίπτωση όπου είναι κενό και αν είναι μεγαλύτερο απο 7 χαρακτήρες-->
-<!-- για το τηλεφωνο  ελεγχει αρχικά την περίπτωση όπου είναι κενό,αν δεν είναι αριθμός και αν είναι μικρότερο  απο 10 ψηφία-->
-
-<!-- επιλογες  στην αρχη της ιστοσελιδας-->
+<!-- καλούμε το εξωτερικό αρχείο javascript οπου εκτελεί ελέγχους στην φόρμα -->
 <script type="text/javascript" src="firstpage.js"></script>
 </head>
 <!-- Βάζουμε χρώμα ως φόντο -->
@@ -27,6 +26,7 @@
     <a href="mailto:dimitkos@yahoo.gr">Επικοινωνία</a>
 </div>
 
+<!-- Εδώ είναι ο κώδικας της φόρμας -->
 <form name="frm" method="post" >
     Ονοματεπώνυμο:<br>
     <input type="text" name="name" placeholder="Enter your Name">
@@ -39,7 +39,6 @@
     <br>
     Κωδικός:<br>
     <input type="text" name="password" placeholder="Enter your Password">
-    <br>
     <br>
     Τηλέφωνο: <br><input type="text" name="phone" placeholder="Enter Phone Number" />
     <br><br>
