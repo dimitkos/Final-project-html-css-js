@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Physics Quiz </title>
+	<!-- Syndesi me to style.css-->
+	<link href="style.css" rel="stylesheet">
+	<!-- Xrhsimopoioyme gramatosira apo ti google-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!-- Script source anoigw javascript arxeia kai mporoume na valoume otidipote mesa se ayta, ousiastika leei sto browser oti yparxei ena arxeio js-->
+	<script src="main.js"></script>
+	
+</head>
+
+<body>
+	<h1> Online Physics Quiz for Students</h1>
+	<!-- Dimiourgia formas-->
+	<form id = "quiz" name="quiz">
+
+	<p>What is the capital of Greece?</p>
+
+	<!-- Dhmioyrgoume input gia to xristi me type text-->
+	<input id="textbox" type="text" name="question1">
+
+	<p> Which of two cities is in Greece?</p>
+	
+	<!-- Dhmiourgia 2 radiobutton, sto name vazoume idio onoma oste na epilegetai panta to ena apo dyo kai sto value ta onomata ton poleon nc gia pollaples epiloges-->
+	<label for="ath"> Athens </label>
+	<input id="ath" type="radio" name="question2" value="athens">
+	<label for="sof"> Sofia </label>
+	<input id="sof" type="radio" name="question2" value="sofia">
+
+	<p> Which of two cities is in Greece?</p>
+	<label for="kal"> Kalamata </label>
+	<input id="kal" type="radio" name="question3" value="kalamata">
+	<label for="rom"> Rome </label>
+	<input id="rom" type="radio" name="question3" value="rome">
+
+	<!-- dhmiourgia tou submit, value emfanizetai sto xristi, to check einai methodos h opoia ekteleitai apo to arxeio main.js otan pathsei o xristis to Submit--><br><br>
+	<label for="but"> Press submit to continue </label>
+	<input id="but" type="button" value="Submit" onclick="check();">
+
+	</form>
+
+	<!-- emfanizontai mono an patisei kapoios to Submit button-->
+	<!-- Dhmiourgia neou div meta to click-->
+	<div id = "after_submit">
+		<p id="message"> </p>
+		<p id ="number_correct"> you finished good job</p> 
+		<img id="picture"> 
+	</div>
+
+</body>
+</html>
