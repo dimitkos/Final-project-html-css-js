@@ -47,8 +47,6 @@ header {
     border: 1px solid white;
 }
 
-
-
 /* Επεξεργασία Logo*/
 .logo img {
 	width: 70px;
@@ -68,11 +66,10 @@ body{
 
 /*Εξεργασία div hero*/
 .hero {
-
 	position: absolute;
 	width: 1200px;
-	margin - left: 0;
-	margin-top: 0;
+	left: 60px;
+	top: 70px;
 }
 
 /* Χρώμα κειμένου*/
@@ -87,7 +84,7 @@ h1 {
 /* Επεξεργασία class button */
 .button {
 	margin-top: 30px;
-	margin-left: 380px;
+	margin-left: 365px;
 }
 
 .btn {
@@ -127,3 +124,4 @@ h1 {
 	background-color: #806000;
 	transition: all 0.5s ease-in;
 }
+
