@@ -12,35 +12,42 @@ header {
 	background-position: center;
 }
 
-.main-nav {
-	float: right;
-	list-style: none;
-	margin-top: 30px;
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
 }
 /* Υπογραμμίζει τις λέξεις του menu και τις κάνει οριζόντια*/
-.main-nav li {
-	display: inline-block;
+.main-nav li
+{
+    display: inline-block;
 }
 
 /* Μορφοποίηση των κατηγοριών του menu*/
-.main-nav li a {
-	color: white;
-	text-decoration: none;
-	padding: 5px 20px;
-	font-family: "Roboto", sans-serif;
-	font-size: 20px;
-
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
 }
 
 /*Άσπρο πλαίσιο στο menu*/
-.main-nav li.active a{
-	border: 1px solid white;
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
 }
 
 /* Ενα effect σε ολα τα links του menu*/
-.main-nav li a:hover {
-	border: 1px solid white;
+.main-nav li a:hover
+{
+    border: 1px solid white;
 }
+
+
 
 /* Επεξεργασία Logo*/
 .logo img {
