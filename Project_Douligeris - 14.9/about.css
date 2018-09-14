@@ -1,0 +1,94 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	/* Βάζει την φωτογραφία πιο πίσω να φαίνεται σαν πραγματικο background*/
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/space.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+/* Υπογραμμίζει τις λέξεις του menu και τις κάνει οριζόντια*/
+.main-nav li
+{
+    display: inline-block;
+}
+
+/* Μορφοποίηση των κατηγοριών του menu*/
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+/*Άσπρο πλαίσιο στο menu*/
+.main-nav li.active a
+{
+    
+    
+}
+
+/* Ενα effect σε ολα τα links του menu*/
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+/* Επεξεργασία Logo*/
+.logo img {
+	width: 90px;
+	height: auto;
+	float: left;
+}
+
+body{
+	font-family: monospace;
+}
+
+/*Λογότυπο και menu τοποθετούνται πιο κεντρικα*/
+.row {
+	max-width: 1200px;
+	margin: auto;
+}
+
+
+}
+html, body {
+	font-family: "Roboto", sans-serif;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
+
+p.x {
+	position: relative;
+	top: 0px;
+	left:0px;
+}
+
+
+  
